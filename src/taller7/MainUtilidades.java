@@ -23,7 +23,7 @@ public class MainUtilidades {
 
         System.out.println("Suma: " + suma);
         System.out.println("Resta: " + resta);
-        System.out.println("Multiplicación: " + multiplicacion);
-        System.out.println("División: " + division);
+        System.out.println("Multiplicacion: " + multiplicacion);
+        System.out.println("Division: " + division);
     }
 }
