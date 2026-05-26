@@ -10,7 +10,7 @@ public class Vehiculo {
     protected double velocidadMaxima;
 
     public Vehiculo(String marca, double velocidadMaxima) {
-
+ 
         this.marca = marca;
         this.velocidadMaxima = velocidadMaxima;
     }
@@ -18,6 +18,6 @@ public class Vehiculo {
     public void mostrarInformacion() {
 
         System.out.println("Marca: " + marca);
-        System.out.println("Velocidad máxima: " + velocidadMaxima);
+        System.out.println("Velocidad maxima: " + velocidadMaxima);
     }
 }

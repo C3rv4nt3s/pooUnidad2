@@ -23,6 +23,6 @@ public class Coche extends Vehiculo {
 
         mostrarInformacion();
 
-        System.out.println("Número de puertas: " + numeroPuertas);
+        System.out.println("Numero de puertas: " + numeroPuertas);
     }
 }
