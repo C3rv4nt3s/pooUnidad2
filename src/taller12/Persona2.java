@@ -4,15 +4,22 @@
  */
 package taller12;
 
-public class MalaPractica implements EjNadador {
+public class Persona2
+        implements Hablador, Trabajador {
 
     @Override
-    public void nadar() {
+    public void hablar() {
 
-        // Mala práctica:
-        // una piedra no debería nadar
         System.out.println(
-                "La piedra nada..."
+                "La persona esta hablando."
+        );
+    }
+
+    @Override
+    public void trabajar() {
+
+        System.out.println(
+                "La persona esta trabajando."
         );
     }
 }

@@ -4,15 +4,22 @@
  */
 package taller12;
 
-public class MalaPractica implements EjNadador {
+public class Animal2
+        implements Volador, Nadador {
+
+    @Override
+    public void volar() {
+
+        System.out.println(
+                "El animal esta volando."
+        );
+    }
 
     @Override
     public void nadar() {
 
-        // Mala práctica:
-        // una piedra no debería nadar
         System.out.println(
-                "La piedra nada..."
+                "El animal esta nadando."
         );
     }
 }

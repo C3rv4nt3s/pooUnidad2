@@ -4,7 +4,7 @@
  */
 package taller12;
 
-public interface EjNadador {
+public interface Trabajador {
 
-    void nadar();
+    void trabajar();
 }
